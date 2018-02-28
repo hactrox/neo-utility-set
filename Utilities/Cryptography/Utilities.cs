@@ -30,5 +30,16 @@ namespace Utilities.Cryptography
                 throw new FormatException();
             return buffer.Take(buffer.Length - 4).ToArray();
         }
+
+        /// <summary>
+        /// 求字节数组的ripemd160散列值
+        /// </summary>
+        /// <param name="value">字节数组</param>
+        /// <returns>返回该散列值</returns>
+        public static byte[] RIPEMD160(this IEnumerable<byte> value)
+        {
+            return _ripemd160.Value.ComputeHash(value.ToArray());
+        }
+
     }
 }
