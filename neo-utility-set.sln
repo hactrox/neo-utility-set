@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{F1E1436E-F1A9-4E76-8826-F9CEDA55E7FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{F1E1436E-F1A9-4E76-8826-F9CEDA55E7FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Address", "Address\Address.csproj", "{F5A8E3E8-5D85-45C3-B391-4200DE2AE9D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Address", "Address\Address.csproj", "{F5A8E3E8-5D85-45C3-B391-4200DE2AE9D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContract", "SmartContract\SmartContract.csproj", "{851CF6A4-EAB4-408D-9FCA-9F1BFC2304DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartContract", "SmartContract\SmartContract.csproj", "{851CF6A4-EAB4-408D-9FCA-9F1BFC2304DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerkleTree", "MerkleTree\MerkleTree.csproj", "{CFCE9285-A126-4E28-ABD3-3A0A58FFCDC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{851CF6A4-EAB4-408D-9FCA-9F1BFC2304DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851CF6A4-EAB4-408D-9FCA-9F1BFC2304DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851CF6A4-EAB4-408D-9FCA-9F1BFC2304DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCE9285-A126-4E28-ABD3-3A0A58FFCDC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCE9285-A126-4E28-ABD3-3A0A58FFCDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCE9285-A126-4E28-ABD3-3A0A58FFCDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCE9285-A126-4E28-ABD3-3A0A58FFCDC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
